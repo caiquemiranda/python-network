@@ -1,0 +1,12 @@
+clock timezone EST -4
+ntp server 1.1.1.1
+
+logging console 7
+
+username marcos privilege 15 secret cisco
+username paulo privilege 15 secret cisco
+
+snmp-server community public ro
+
+interface loopback 10
+
